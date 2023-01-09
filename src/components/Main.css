@@ -1,0 +1,26 @@
+img {
+  border-radius: 50%;
+  margin: 100px 0px 50px 200px;
+  width: 500px;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+.main {
+  display: flex;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* .resume {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+} */

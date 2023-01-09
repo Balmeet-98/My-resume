@@ -1,0 +1,15 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 0.404);
+  box-shadow: 0 2px 18px 0 rgb(129 162 182 / 20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+}
+.navbar-brand {
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-content: center;
+}
